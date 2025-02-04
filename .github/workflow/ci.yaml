@@ -8,10 +8,10 @@ jobs:
 
     steps:
       -name: code chekout
-        uses: action/checkout@v3
+        uses: actions/checkout@v3
 
       -name: setup python
-        uses: action/setup-python@v2
+        uses: actions/setup-python@v2
           python-version: '3.9'
 
       -name: install flake8
